@@ -77,7 +77,7 @@ function TodoList() {
             </button>
             <button className={`btn btn-outline ${filter === "active" ? "active" : ""}`} onClick={() => handleFilterChange("active")}> Active
             </button>
-            <button className={`btn btn-outline ${filter === "completed" ? "active" : ""}`} onClick={() => handleFilterChange("completed")}> completed
+            <button className={`btn btn-outline ${filter === "completed" ? "active" : ""}`} onClick={() => handleFilterChange("completed")}> Completed
             </button>
           </div>
 
